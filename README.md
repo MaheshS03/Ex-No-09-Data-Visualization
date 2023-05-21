@@ -81,9 +81,9 @@ plt.ylabel=("Tips")
 plt.show()
 
 ## Relationship between the total bill amount and the day of the week:
-sns.histplot(data=tips, x="total_bill", hue="time", element="step", stat="density")
+sns.histplot(data=tips, x="total_bill", hue="day", element="step", stat="density")
 
-plt.title("Distribution of Total Bill Amounts by Time of Day")
+plt.title("Distribution of Total Bill Amounts by Day of week")
 
 plt.show()
 
@@ -149,7 +149,7 @@ plt.show()
 ![Screenshot (82)](https://github.com/MaheshS03/Ex-No-09-Data-Visualization/assets/128498431/08d4f728-c17c-4dc4-95fc-83dde2495788)
 
 ## Relationship between the total bill amount and the day of the week:
-![Screenshot (83)](https://github.com/MaheshS03/Ex-No-09-Data-Visualization/assets/128498431/fd7b6ca7-c95c-4358-84d4-ad57a17a9d03)
+![Screenshot (91)](https://github.com/MaheshS03/Ex-No-09-Data-Visualization/assets/128498431/ecd4c2a2-fe71-4e6f-97dc-8b428ab42175)
 
 ## Distribution of total bill amounts vary across different time periods:
 ![Screenshot (84)](https://github.com/MaheshS03/Ex-No-09-Data-Visualization/assets/128498431/43db86d9-d801-4bcc-8a6a-72de36cd5385)
